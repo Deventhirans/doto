@@ -1,0 +1,23 @@
+.Header-nav{
+    background-color: rgb(244, 246, 246);
+  }
+  .Toolbar{
+    background-color: rgb(244, 246, 246);
+    min-height: 80vh;
+  }
+  .list{
+    background-color: rgb(244, 246, 246);
+    min-height: 89vh;
+  }
+  .dotsitoLogo-img{
+    padding: 10px;
+    width: 280px;
+  }
+  .nav-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  #demo-positioned-button{
+    outline: none;
+  }

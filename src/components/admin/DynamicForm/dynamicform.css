@@ -1,0 +1,103 @@
+.dynamic-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dynamic-form-header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .dynamic-form-header h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .dynamic-form-input-in {
+    margin-bottom: 10px;
+    display: flex;
+    
+  }
+  
+  .dynamic-form-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .dynamic-form-input input[type="text"],
+  .dynamic-form-input input[type="date"],
+  .dynamic-form-input input[type="color"],
+  .dynamic-form-input select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .dynamic-form-input input[type="file"] {
+    width: 100%;
+    margin-top: 5px;
+    
+  }
+  
+  .dynamic-form-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .dynamic-form-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dynamic-form-component-list {
+    margin-top: 20px;
+  }
+  
+  .dynamic-form-component {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .dynamic-form-component label {
+    font-weight: bold;
+  }
+  
+  .dynamic-form-edit-button,
+  .dynamic-form-remove-button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dynamic-form-edit-button:hover,
+  .dynamic-form-remove-button:hover {
+    background-color: #c82333;
+  }
+  .form-required-check{
+    display: flex;
+  }
+  .form-add-button{
+    background-color: red;
+  }
+  
